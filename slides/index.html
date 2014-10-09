@@ -17,11 +17,29 @@
   <!-- End CSS -->
 </head>
 <body>
-
-  <!-- Start main content -->
+   
+    </head>
+    <body>
+      <div id="slides">
+        <img src="http://placehold.it/940x528">
+        <img src="http://placehold.it/940x528">
+        <img src="http://placehold.it/940x528">
+        <img src="http://placehold.it/940x528">
+        <img src="http://placehold.it/940x528">
+      </div>
+    </body>
 
 
   <!-- SlidesJS Required: Link to jQuery -->
   <script src="resources/jquery-1.9.1.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+  <script>
+        $(function(){
+          $("#slides").slidesjs({
+            width: 940,
+            height: 528
+          });
+        });
+  </script>
 
 </body></html>
